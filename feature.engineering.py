@@ -1,6 +1,6 @@
-# ============================================================
-#  FEATURE ENGINEERING DATASET MIXUE (VERSI SESUAI TUGAS)
-# ============================================================
+# ====================================
+#  FEATURE ENGINEERING DATASET MIXUE 
+# ====================================
 
 import pandas as pd
 import numpy as np
@@ -136,3 +136,4 @@ print(df_scaled.head(), "\n")
 df_scaled.to_csv("dataset_feature_engineered.csv", index=False)
 
 print("FILE dataset_feature_engineered.csv berhasil dibuat!")
+
